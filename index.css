@@ -1,0 +1,241 @@
+html {
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	margin: 0;
+	height:100%;
+	padding: 0;
+	border: 0;
+	background-color: #2c3e50;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	background-image:none;
+	
+	}
+h1 {
+	color: #3498db;
+	font-size: 2.5em;
+}
+		
+h2 {
+	color: #3498db;
+	font-size: 2.0em;
+}
+
+h3 {
+	color: #2ecc71;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+h4 {
+	color: #f39c12;
+	font-size: 1.5em;
+}
+		
+p {
+	color: #f1c40f;
+	font-size: 100%;
+	margin:0 auto 5px auto;
+}
+
+header {
+	position:fixed;
+	height: 90px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color:#3b3d3d;
+}
+
+a:link {
+text-decoration:none;
+}
+
+.pagewrap {
+	width: 960px;
+	padding: 130px 5px 5px 5px;
+	margin: auto;
+	
+}
+
+.column1 {
+	float: left;
+	width: 290px;
+	padding: 5px 15px;
+	margin: 0;
+}
+
+.column2 {
+	float: left;
+	width: 294px; /* Account for margins + border values */
+	padding: 5px 15px;
+	margin: 0 5px 5px 5px;
+}
+
+.column3 {
+	float: left;
+	width: 270px;
+	padding: 5px 15px;
+	margin: 0;
+}
+
+.title {
+	float:left;
+	margin:12px 0 0 10px;
+}
+
+.page{
+	display:inline-block;
+	width: 10em;
+	margin: 30px 10px 0 0;
+}
+
+.icon {
+	float:right;
+	display:inline-block;
+	margin:15px 5px 0 0;
+}
+
+.homeimage {
+   background-position: 100%;
+   max-width:96%;
+   max-height:60%;
+   margin:60px 0 0 0;
+}
+
+.hometitle{
+display:none;
+}
+
+.frequentwashcard{
+	border:none;
+	padding: 0px;
+	margin: 0px;
+}
+.free{
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+	margin: 2px;
+	border: solid;
+	border-width:2px;
+	border-radius: 50px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2, h3, p {
+	text-align:left;
+	}
+
+	header{
+		height:60px;
+	}
+
+	.pagewrap {
+		width: 96%;
+		overflow:hidden;
+		padding:60px 0 0 0;
+	}	
+
+	.column1, .column2, .column3{
+		width: 97%;
+		display:block;
+		margin:0;
+		padding:0;
+	}
+	
+	.column3{
+		margin:0 0 30px 0;
+	}	
+
+	.frequentwashcard{
+		width: 97%;
+		display:block;
+		margin: 0;
+		padding:20px 0;
+		border:none;
+	}
+
+	.coupon1, .coupon2, .coupon3{
+		padding: 0;
+		margin:0;
+		border-color: #3498db; 
+		border-style:dashed;
+	}
+
+	.coupon1{
+		border-width:2px 0 2px 0;
+	}
+
+	.coupon2, .coupon3{
+		border-width:0 0 2px 0;
+	}	
+
+	.title {
+		display:none;
+	}
+
+	.page{
+		float:left;
+		margin:10px 0 0 10px;
+		padding: 0 0 0 5px;
+		width:4em;
+	}
+
+	.icon {
+		float: right;
+		margin-top: 5px;
+		width:40px;
+		height: 40px;
+	}
+		
+	.free{
+		font-size: 70%;
+		display: inline-block;
+		padding: 0 5px 0 5px;
+		margin: 2px;
+		border: solid;
+		border-width:2px;
+		border-radius: 50px;
+	}
+	
+	.hometitle{
+		display:block;
+		max-width:90%;
+		font-size: 90%;
+		margin:auto;
+		padding:auto;
+	}
+	.homeimage {
+	   margin-top:20px;
+}
+
+/* for 480px or less */
+@media screen and (max-width: 500px){
+
+	h1{
+		font-size:1.5em;
+	}
+		
+	.icon{
+		width:35px;
+		height: 35px;
+		margin: 0;
+		padding: 5px 3px;
+	}	
+
+	header{
+		height:50px;
+	}	
+
+}
