@@ -107,7 +107,7 @@ text-decoration:none;
    width:600px;
    max-width:96%;
    max-height:60%;
-   margin:0;
+   margin:3% 0 0 0;
    padding:0;
 }
 
@@ -222,9 +222,12 @@ MEDIA QUERIES
 		font-size: 90%;
 		margin:auto;
 		padding:auto;
+		margin-bottom:20px;
 	}
 	.homeimage {
-		margin-top:0;
+		width:80%;
+		height:auto;
+		margin-top:40px;
 		padding:0;
 	}
 }
